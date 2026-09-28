@@ -11,5 +11,7 @@ for(let d = 1; d <= 31; d++){
 }
 
 function descobrirNome(){
+    console.log(mes.value);
+    console.log(dia.value);
     
 }
