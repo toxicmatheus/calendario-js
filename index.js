@@ -11,6 +11,12 @@ for(let d = 1; d <= 31; d++){
 }
 
 function descobrirNome(){
+    let nome ="";
+    if(mes.value == "Jan"){
+        nome = "Dante"
+    } else if(mes.value == "Fev"){
+        nome = "Link"
+    }
     console.log(mes.value);
     console.log(dia.value);
     
